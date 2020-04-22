@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Tutor</string>
+    <string-array name="entriesone">
+        <item>Уфа</item>
+        <item>Москва</item>
+        <item>Санкт-Петербург</item>
+    </string-array>
+    <string-array name="valueone">
+        <item>https://afisha.yandex.ru/ufa</item>
+        <item>https://afisha.yandex.ru/moscow/events</item>
+        <item>https://afisha.yandex.ru/saint-petersburg</item>
+    </string-array>
+    <string-array name="entriestwo">
+        <item>Наука и техника</item>
+        <item>Книги на иностранных языках</item>
+        <item>Художественная</item>
+    </string-array>
+    <string-array name="valuetwo">
+        <item>https://www.chitai-gorod.ru/catalog/books/nauka_i_tekhnika-9170/</item>
+        <item>https://www.chitai-gorod.ru/catalog/books/knigi_na_inostrannykh_yazykakh-9154/</item>
+        <item>https://www.chitai-gorod.ru/catalog/books/khudozhestvennaya_literatura-9657/</item>
+    </string-array>
+
+    <string-array name="entriesthree">
+        <item>Математика</item>
+        <item>Русский</item>
+        <item>Химия</item>
+        <item>Физика</item>
+        <item>Информатика</item>
+        <item>Обществознание</item>
+        <item>Экономика</item>
+        <item>География</item>
+        <item>История</item>
+        <item>Биология</item>
+        <item>Литература</item>
+    </string-array>
+    <string-array name="valuethree">
+        <item>https://repetit.ru/repetitors/matematika/online/</item>
+        <item>https://repetit.ru/repetitors/russkiy-yazyk/online/</item>
+        <item>https://repetit.ru/repetitors/khimiya/online/</item>
+        <item>https://repetit.ru/repetitors/fizika/online/</item>
+        <item>https://repetit.ru/repetitors/informatika-i-programmirovanie/online/</item>
+        <item>https://repetit.ru/repetitors/obshchestvoznanie/online/</item>
+        <item>https://repetit.ru/repetitors/ekonomika/online/</item>
+        <item>https://repetit.ru/repetitors/geografiya/online/</item>
+        <item>https://repetit.ru/repetitors/istoriya/online/</item>
+        <item>https://repetit.ru/repetitors/biologiya/online/</item>
+        <item>https://repetit.ru/repetitors/literatura/online/</item>
+    </string-array>
+    <string-array name="entriesmain">
+        <item>Новости</item>
+        <item>Книги</item>
+        <item>Подработка</item>
+        <item>Репетиторы</item>
+        <item>Афиши</item>
+        <item>Города</item>
+        <item>Крестики Нолики</item>
+    </string-array>
+
+</resources>

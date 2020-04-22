@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="Профиль">
+        <EditTextPreference
+            android:defaultValue="default_gallery_storage"
+            android:key="name"
+            android:icon="@drawable/ic_name"
+            android:summary="Неизвестно"
+            android:title="Имя" />
+        <SeekBarPreference
+            android:key="age"
+            android:title="Возраст"
+            android:summary="1"
+            android:defaultValue="1"
+            android:max="100"
+            app:min="1" />
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="Выберите город"
+            android:icon="@drawable/ic_city"
+            android:entries="@array/entriesone"
+            android:entryValues="@array/entriesone"
+            android:key="city"
+            android:summary="Выберите город"
+            android:title="Город" />
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="Выберите литературу"
+            android:entries="@array/entriestwo"
+            android:entryValues="@array/entriestwo"
+            android:key="book"
+            android:icon="@drawable/ic_book"
+            android:summary="Выберите литературу"
+            android:title="Литература" />
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="Выберите предмет"
+            android:entries="@array/entriesthree"
+            android:entryValues="@array/entriesthree"
+            android:key="lessons"
+            android:icon="@drawable/ic_lesson"
+            android:summary="Выберите предмет"
+            android:title="Предметы" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Темы">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="black"
+            android:summaryOff="Включить"
+            android:summaryOn="Выключить"
+            android:title="Темная тема" />
+    </PreferenceCategory>
+</PreferenceScreen>
